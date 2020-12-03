@@ -86,6 +86,12 @@
                             <constraint firstItem="uXu-3x-Tvg" firstAttribute="top" secondItem="e0c-AM-V3g" secondAttribute="bottom" constant="47" id="xYF-wd-Z1s"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blueColorSlider" destination="yzL-9P-ySk" id="fd7-uK-i9W"/>
+                        <outlet property="greenColorSlider" destination="ReV-lJ-Jt0" id="cj3-ry-LBf"/>
+                        <outlet property="redColorSlider" destination="uXu-3x-Tvg" id="z9Y-Tp-jsg"/>
+                        <outlet property="resultScreen" destination="e0c-AM-V3g" id="hvR-6H-NNL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
